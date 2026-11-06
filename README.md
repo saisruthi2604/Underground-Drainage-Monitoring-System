@@ -24,6 +24,8 @@ Our system integrates multiple sensors with an Arduino microcontroller to monito
 
 **MQ-7 Gas Sensor:** The MQ-7 sensor is primarily designed to detect Carbon Monoxide (CO), a toxic gas that can accumulate in confined spaces. It helps identify potentially hazardous gas conditions and improves worker safety.
 
+Water Sensor: The water sensor is used to detect the presence of water. It helps identify water accumulation or possible leakage conditions in the underground drainage system.
+
 **Flame Sensor:** The flame sensor detects the presence of fire by sensing infrared radiation emitted by flames. It acts as a safety component by identifying potential fire hazards in underground drainage areas.
 
 **LCD Display:** The LCD display is used to show the sensor readings and monitoring status. It provides a simple interface for observing the environmental conditions detected by the system.
@@ -34,17 +36,16 @@ Our system integrates multiple sensors with an Arduino microcontroller to monito
 
 1. The sensors continuously monitor underground environmental conditions.
 2. The DHT11 measures temperature and relative humidity.
-3. The soil moisture sensor measures the water content in the surrounding soil to identify possible seepage or leakage.
 4. The MQ-7 sensor monitors carbon monoxide concentration.
-5. The flame sensor detects the presence of fire.
-6. The Arduino processes the sensor readings.
-7. The LCD displays the collected information and warnings.
+5. The water sensor detects the presence of water and helps identify possible water accumulation or leakage in underground drainage systems.
+6. The flame sensor detects the presence of fire.
+7. The Arduino processes the sensor readings.
+8. The LCD displays the collected information and warnings.
 
 ## ✨ Key Features
 
 - Multi-sensor environmental monitoring.
 - Carbon monoxide detection.
-- Soil moisture monitoring for leakage identification.
 - Temperature and humidity monitoring.
 - Fire detection for underground safety.
 - Real-time sensor readings through an LCD display.
