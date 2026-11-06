@@ -63,7 +63,6 @@ Water Sensor: The water sensor is used to detect the presence of water. It helps
 
 - Integration with IoT platforms for remote monitoring.
 - SMS and mobile application alerts.
-- Water-level monitoring for early overflow warnings.
 - Cloud-based data storage and analysis.
 - Predictive maintenance using machine learning.
 
